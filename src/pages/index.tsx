@@ -1,6 +1,4 @@
 import Head from "next/head";
-import { Heading } from "@chakra-ui/react";
-import SplitScreen from "@/components/CTA";
 
 export default function Home() {
   return (
@@ -11,20 +9,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <Heading
-          fontSize="30pt"
-          textColor="teal.500"
-          textAlign="center"
-          justifyContent="center"
-          fontFamily="bold"
-          pt="20px"
-          mb="20px"
-        >
-          The best Chakra-ui E-commerce ever on youtube
-        </Heading>
-        <SplitScreen />
-      </main>
+      <main></main>
     </>
   );
 }
